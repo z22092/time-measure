@@ -1,0 +1,38 @@
+{
+  "name": "time-measure",
+  "version": "0.0.1",
+  "deprecated": false,
+  "description": "A very simple timer used NodeJS;",
+  "allow-same-version": true,
+  "git-tag-version": true,
+  "main": "index.js",
+  "author": "jefferson venceslau",
+  "license": "MIT",
+  "scripts": {
+    "cz": "npx cz",
+    "tsc": "npx tsc",
+    "start": "node index.js"
+  },
+  "typings": "./index.d.ts",
+  "types": "./index.d.ts",
+  "engineStrict": true,
+  "engines": {
+    "node": ">=10.24.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.0.1",
+    "@commitlint/config-conventional": "^12.0.1",
+    "commitizen": "^4.2.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^5.2.0",
+    "lint-staged": "^10.5.4",
+    "semistandard": "^16.0.0",
+    "typescript": "^4.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "tags": [],
+  "keywords": []
+}
